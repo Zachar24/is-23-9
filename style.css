@@ -1,0 +1,60 @@
+body{
+    width: 1200px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px;
+}
+.phone-number{
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+.ask-btn{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 20px;
+width: 192px;
+height: 52px;
+background: #33836E;
+border-radius: 10px;
+color: white;
+font-size: 16px;
+}
+.seacrh{
+border: none;
+border-radius: 10px;
+font-size: 16px;
+background-color: #bebbcda2;
+padding: 10px;
+width: 427px;
+top: 40px;
+}
+.menu-border{/* Frame 11 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+
+width: 202px;
+height: 44px;
+
+/* Gray/Borders */
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;}
+
