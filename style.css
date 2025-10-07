@@ -15,6 +15,20 @@ body {
     font-weight: bold;
     font-size: 18px;
     display: block;
+    color: #125b2c;
+}
+
+.seacrh {
+width: 427px;
+border: none;
+font-size: 16px;
+background-color: #bebbcda2;
+border-radius: 10px;
+padding: 10px;
+}
+
+.contact-info{
+color: gray;
 }
 
 .ask-btn {
@@ -30,62 +44,72 @@ body {
     font-size: 16px;
 }
 
-.seacrh {
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    background-color: #bebbcda2;
-    padding: 10px;
-    width: 427px;
-    top: 40px;
+.menu {
+display: flex;
+margin-top: 30px;
+gap: 30px;
+justify-content: space-between;
+font-size: 16px;
+align-items: center;
 }
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
-    padding: 0px;
-    gap: 54px;
-    width: 1140px;
-    height: 44px;
-    left: 150px;
-    top: 122px;
+.menu a{
+    text-decoration: none;
+    color: black;
 }
 
 .menu-border {
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 20px;
-    gap: 10px;
-    width: 202px;
-    height: 44px;
-    border: 1px solid rgba(47, 43, 67, 0.15);
+    border: 1px solid rgb(205, 201, 203);
     border-radius: 10px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    padding: 10px 20px;
 }
+
+.bread{
+font-size: 16px;
+color: rgb(99, 96, 96);
+margin-bottom: 15px;
+margin-top: 40px;
+}
+
 .hero{
     display: flex;
     gap: 30px;
     margin-bottom: 40px;
 }
 .hero-text{
-position: absolute;
-width: 657px;
-height: 104px;
-left: 150px;
-top: 277px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 38px;
-line-height: 52px;
-letter-spacing: -0.03em;
-color: #140A32;
+max-width: 600px;
 }
+.btn-ask{
+padding: 10px 20px;
+color: white;
+border: none;
+font-weight: 500;
+background-color: #33836E;
+border-radius: 10px;
+}
+
+.phone{
+color: #125b2c;
+font-weight: bold;
+font-size: 18px;
+display: block;
+}
+
+.question{
+color: rgb(99, 96, 96);
+display: flex;
+gap: 30px;
+}
+
+.features{
+display: flex;
+gap: 40px;
+font-size: 14px;
+margin-top: 30px;
+}
+
+
 
