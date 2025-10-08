@@ -42,6 +42,7 @@ color: gray;
     border-radius: 10px;
     color: white;
     font-size: 16px;
+    gap: 10px;
 }
 
 .menu {
@@ -65,6 +66,13 @@ align-items: center;
     border: 1px solid rgb(205, 201, 203);
     border-radius: 10px;
     padding: 10px 20px;
+    gap: 10px;
+}
+
+.menu-antrance{
+display: flex;
+gap: 10px;
+align-items: center;
 }
 
 .bread{
@@ -76,8 +84,9 @@ margin-top: 40px;
 
 .hero{
 display: flex;
-gap: 30px;
-margin-bottom: 40px;
+gap: 220px;
+margin-bottom: 20px;
+align-items: center;
 }
 .hero-text{
 max-width: 600px;
@@ -111,12 +120,33 @@ gap: 30px;
 
 .features{
 display: flex;
+align-items: center;
+flex-direction: row;
 gap: 40px;
 font-size: 14px;
 margin-top: 30px;
+}
+
+.features-text{
+display: flex;
+text-decoration: none;
+color: black;
+align-items: center;
+flex-direction: row;
+gap: 10px;
 }
 
 .image img{
 height: 350px;
 }
 
+
+.help-text{
+max-width: 1100px;
+font-size: 16px;
+}
+
+.consultation1{
+display: flex;
+justify-content: space-between;
+}
