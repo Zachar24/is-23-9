@@ -208,18 +208,14 @@ left: 313px;
 color: white;
 }
 
-/* Frame 41 *
-
-/* Auto layout *
+.tablo-online{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
+padding: 40px;
 gap: 10px;
-
-position: absolute;
 width: 334px;
 height: 100px;
 left: 313px;
-top: calc(50% - 100px/2);
-
+color: white;
+}
