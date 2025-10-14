@@ -137,7 +137,7 @@ gap: 10px;
 }
 
 .image img{
-height: 350px;
+height: 450px;
 }
 
 
@@ -146,7 +146,80 @@ max-width: 1100px;
 font-size: 16px;
 }
 
-.consultation1{
-display: flex;
+.consultation{
+display: block;
 justify-content: space-between;
+margin-top: 40px;
 }
+
+.consultation-content{
+display: flex;
+gap: 50px;
+width: 1200px;
+}
+
+.consultation1{
+box-sizing: border-box;
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+
+border: 1px solid rgb(205, 201, 203);
+border-radius: 20px;
+width: 260px;
+height: 170px;
+}
+
+.consultation-phone{
+color: #140A32;
+font-weight: bold;
+font-size: 18px;
+display: block;
+}
+
+.consultation1 a{
+display: flex;
+text-decoration: none;
+color: green;
+}
+
+.tablo{
+display: flex;
+margin-top: 70px;
+width: 1200px;
+height: 200px;
+background: #33836E;
+border-radius: 20px;
+gap: 70px;
+}
+
+.tablo-text{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+gap: 10px;
+width: 334px;
+height: 100px;
+left: 313px;
+color: white;
+}
+
+/* Frame 41 *
+
+/* Auto layout *
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 334px;
+height: 100px;
+left: 313px;
+top: calc(50% - 100px/2);
+
