@@ -149,7 +149,7 @@ font-size: 16px;
 .consultation{
 display: block;
 justify-content: space-between;
-margin-top: 40px;
+margin-top: 80px;
 }
 
 .consultation-content{
@@ -188,10 +188,10 @@ color: green;
 
 .tablo{
 display: flex;
-margin-top: 70px;
+margin-top: 80px;
 width: 1200px;
 height: 200px;
-background: #33836E;
+background: rgba(51, 131, 110, 1);
 border-radius: 20px;
 gap: 70px;
 }
@@ -218,4 +218,66 @@ width: 334px;
 height: 100px;
 left: 313px;
 color: white;
+}
+
+.help-info{
+margin-top: 80px;
+}
+
+.glav-blok{
+display: flex;
+gap: 30px;
+margin-top: 30px;
+}
+
+.blok{
+display: flex;
+border: 1px solid rgb(205, 201, 203);
+width: 680px;
+height: 180px;
+border-radius: 20px;
+align-items: center;
+font-size: 16px;
+gap: 20px;
+}
+
+.glav-blok2{
+display: flex;
+gap: 30px;
+margin-top: 30px;
+}
+
+.blok2{
+display: flex;
+border: 1px solid rgb(205, 201, 203);
+width: 680px;
+height: 180px;
+border-radius: 20px;
+align-items: center;
+font-size: 16px;
+gap: 20px;
+}
+
+.choose{
+display: flex;
+gap: 220px;
+margin-bottom: 20px;
+align-items: center;
+}
+
+.choose-text{
+max-width: 600px;
+}
+
+.choose-info{
+display: flex;
+align-items: center;
+flex-direction: row;
+gap: 40px;
+font-size: 14px;
+margin-top: 30px;
+}
+
+.image-choose img{
+height: 250px;
 }
